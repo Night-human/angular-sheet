@@ -1,0 +1,8 @@
+<h1 id="parent">Parent Component</h1>
+<p>cards-list works!</p>
+
+<!-- Nested Finally, use the selector -->
+<!-- Input Finally, set the city variable on child selector of parent template -->
+<!-- Output Finally, set the event emitter on the child selector of the parent template -->
+<app-cards-item city="Guanajuato" (increaseCounterEvent)="addItem($event)"></app-cards-item>
+<p>Increase counter: {{items.length}}</p>

@@ -1,0 +1,14 @@
+
+<ul>
+<!-- Second, make the for loop -->
+@for (user of users; track user.name) {
+    <!-- Third, set the if conditional -->
+    @if (user.age >= 18) {
+    <li>Name: {{ user.name }} Age: {{ user.age }} is too old</li>
+    } @else {
+        <li>Name: {{ user.name }} Age: {{ user.age }} is too young</li>
+    }
+}
+</ul>
+
+
