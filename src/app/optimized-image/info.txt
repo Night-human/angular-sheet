@@ -1,0 +1,1 @@
+!Important to add "src/assets/" path in angular.json file to get local images
