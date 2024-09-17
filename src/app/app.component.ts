@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { CardsListComponent } from './nested-components/cards-list/cards-list.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CardsListComponent],
-  template: '<app-cards-list/>',
+  // import RouterLink
+  imports: [RouterOutlet, RouterLink],
+  templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
